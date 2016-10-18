@@ -26,9 +26,21 @@ public class MainActivity extends AppCompatActivity {
         //this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
        // setTitle("CLASES");
         Personajes = new ArrayList<Chars>();
-        Personajes.add(new Chars("HOLA",R.drawable.db,"SOY GOKU"));
-        Personajes.add(new Chars("HOLA",R.drawable.db,"SOY GOHAN"));
-        Personajes.add(new Chars("HOLA",R.drawable.db,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY GOKU"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY GOHAN"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+        Personajes.add(new Chars("HOLA",R.drawable.db2,"SOY VEGETA"));
+
+
+
+
+
         AdapterBase AB = new AdapterBase(this, Personajes);
         listViewTask = (ListView) findViewById(R.id.listView);
         listViewTask.setAdapter(AB);

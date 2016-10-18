@@ -2,30 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:orientation="horizontal"
 android:layout_width="match_parent"
-android:layout_height="wrap_content">
+android:layout_height="wrap_content"
+    android:background="#03011f"
+    android:backgroundTint="#6200ea"
+    android:baselineAligned="true"
+    >
 <ImageView
-    android:layout_width="74dp"
-    android:layout_height="74dp"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
 
-    android:id="@+id/imageViewIcon" />
+    android:id="@+id/imageViewIcon"
+    android:background="#030120" />
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#01014e">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_row="0"
-            android:layout_column="0">
+            android:layout_column="0"
+            >
 
             <TextView
                 android:layout_width="184dp"
                 android:layout_height="match_parent"
                 android:text="New Text"
                 android:id="@+id/textViewname"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#5dcadd"
+                android:textSize="15dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -40,7 +49,9 @@ android:layout_height="wrap_content">
                 android:layout_height="match_parent"
                 android:text="New Text"
                 android:id="@+id/textViewDetails"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#5dcadd"
+                android:textSize="15dp" />
         </LinearLayout>
     </GridLayout>
 
